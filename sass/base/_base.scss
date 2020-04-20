@@ -1,0 +1,19 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: $color-gray-light-1;
+  font-family: "Lato", sans-serif;
+  font-size: $default-font-size;
+  color: $color-gray-dark;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.7;
+}
