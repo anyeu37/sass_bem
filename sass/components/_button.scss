@@ -47,3 +47,23 @@
     animation: moveInDown 1.5s ease-in;
   }
 }
+.btn-text {
+  &:link,
+  &:visited {
+    text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5rem 0.2rem;
+    margin-bottom: 1px solid $color-tertiary;
+    transition: all 0.5s;
+    color: $color-gray;
+  }
+  &:hover {
+    transform: translateY(2px);
+    background-color: $color-primary;
+    color: $color-white;
+  }
+  &:activer {
+    transform: translateY(-1px);
+  }
+}

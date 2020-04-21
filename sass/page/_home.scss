@@ -1,0 +1,15 @@
+.section-about {
+  padding: 6rem 0;
+}
+.section-skill {
+  padding: 15rem 0;
+  background-image: linear-gradient(
+    to right top,
+    rgba($color-primary, 0.8),
+    rgba($color-secondary, 0.8)
+  );
+  clip-path: ellipse(72% 50% at 50% 50%);
+}
+.section-courses {
+  padding: 6rem 0;
+}
